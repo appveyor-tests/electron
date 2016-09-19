@@ -3,6 +3,7 @@
 version: "{build}"
 
 init:
+  - appveyor version
   - git config --global core.autocrlf input
 
 platform:
